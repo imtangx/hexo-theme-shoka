@@ -58,8 +58,8 @@ auto_scroll: # false
 ```yml
 # 是否显示页面加载动画loading-cat
 loader:
-  start: true # 当初次打开页面时，显示加载动画
-  switch: true # tab切换到其他页面时，显示加载动画
+  start: false # 当初次打开页面时，显示加载动画
+  switch: false # tab切换到其他页面时，显示加载动画
 ```
 
 tab切换后只是显示loading动画，实际并未重新加载页面
